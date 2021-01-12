@@ -3,14 +3,14 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.24.1
-    created: "2021-01-12T11:46:33.223842355Z"
+    created: "2021-01-12T12:06:22.699193818Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
       repository: https://charts.bitnami.com/bitnami
       version: 1.1.*
     description: Prometheus is a monitoring system and time series database.
-    digest: 5c3ac7e0dbd3b1faefa9cecf20e07fc63b2b58d070d06432eb3ed2da96396264
+    digest: e92e4648f8b6f58e6300e5687c90d4d298f9896121332a6c0fc54dc1954a6681
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     maintainers:
@@ -33,6 +33,6 @@ entries:
     - https://github.com/kubernetes/kube-state-metrics
     type: application
     urls:
-    - https://github.com/survivant/helm-charts/releases/download/prometheus-13.2.0/prometheus-13.2.0.tgz
-    version: 13.2.0
-generated: "2021-01-12T11:46:33.00114091Z"
+    - https://github.com/survivant/helm-charts/releases/download/prometheus-13.2.1/prometheus-13.2.1.tgz
+    version: 13.2.1
+generated: "2021-01-12T12:06:22.575040698Z"
